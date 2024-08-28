@@ -4,121 +4,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sur</title>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><text y=%2214%22 font-size=%2212%22>☀️</text></svg>">
+    <link rel="icon" href="https://framerusercontent.com/images/JxaapsnIBwBYJNb6Ofda3JKdAVM.jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     <style>
-        /* Reset default browser styles */
         body, h1, p, ul, li {
             margin: 0;
             padding: 0;
         }
 
-        /* Set a background color */
         body {
             background-color: #1f1f1f;
-            color: #c3c3c3; /* Set default text color to ensure it's visible */
-            font-family: 'Inter', sans-serif; /* Set default font */
-        }
-
-        /* Add space around the div with id "hero" */
-        #hero {
-            margin: 5%;
-            padding: 5%;
-            align-items: center;
-        }
-
-        #spacer {
-            margin: 20px;
-            padding: 20px;
-        }
-
-        /* Center the content */
-        .container {
+            color: white;
+            font-family: 'Indie Flower', cursive;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
         }
 
-        /* Style the heading */
+        #content-wrapper {
+            max-width: 800px;
+            width: 100%;
+        }
+
         h1 {
-            font-size: 36px;
-            font-weight: bold;
-            color: #ffa500; /* Set header color to orange */
+            font-size: 48px;
+            font-weight: 700;
             margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            text-align: center;
+            color: #ffa500;
         }
 
         h2 {
-            font-size: 26px;
-            font-weight: bold;
-            color: #d9d9d9;
-            margin-bottom: 20px;
+            font-size: 28px;
+            font-weight: 700;
+            color: #ffa500;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
         }
 
-        /* Style the paragraph and list items */
         p, li {
             font-size: 18px;
-            margin-bottom: 9px;
+            margin-bottom: 5px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
         }
 
-        /* Style the link */
         a {
-            color: #ffa500; /* Set default link color to orange */
+            color: #ff7f00;
             text-decoration: none;
         }
 
-        /* Add hover effect to the link */
         a:hover {
-            color: #ff7f00; /* Change to a slightly darker orange on hover */
+            color: #ffa500;
+        }
+
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        section {
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
-    <div id="hero">
+    <div id="content-wrapper">
         <header>
             <h1>sur !!!</h1>
         </header>
 
         <section id="about">
             <h2>About</h2>
-            <p>I am a 19-year-old hacker..</p>
-            <p>I am based out of Bangalore and I have been building projects in Computer Science since 2021. Thanks to the internet I am an <a href="https://cs50.harvard.edu/college/2024/fall/">AUTODIDACT.</a></p>
+            <p>I am a 19-year-old hacker based in Bangalore. I've been building projects in Computer Science since 2021. Thanks to the internet, I am an <a href="https://cs50.harvard.edu/college/2024/fall/">AUTODIDACT</a>.</p>
         </section>
 
         <section id="work">
             <h2>Work</h2>
             <ul>
-                <li><a href="https://hackclub.com/philosophy/">HackClub</a> was the first place where I tried my hands with hardware and robotics and have continued to build in this field since then.</li>
-                <li>I am currently working on designing a solar-powered plane [budget under 500USD] and will soon open source it.</li>
-                <li>I recently even won a grant from the <a href="https://www.1517fund.com/">1517 fund</a> to build one of my projects.</li>
+                <li><a href="https://hackclub.com/philosophy/">HackClub</a> was where I first tried hardware and robotics, and I've continued building in this field since then.</li>
+                <li>I'm currently designing a solar-powered plane [budget under 500USD] and will soon open source it.</li>
+                <li>I recently won a grant from the <a href="https://www.1517fund.com/">1517 fund</a> to build one of my projects.</li>
             </ul>
         </section>
 
         <section id="fun">
             <h2>Fun</h2>
             <ul>
-                <li>I also like to listen to random music playlists <a href="https://open.spotify.com/playlist/2G7uvIZZREbHU0IOEgU1QS?si=lL7JnYHdRwOJzB3XlRVPmQ">MyVibelist</a>.</li>
-                <li>I like reading, anything from Sci-fi to economics & business books.</li>
+                <li>I enjoy listening to random music playlists. Check out <a href="https://open.spotify.com/playlist/2G7uvIZZREbHU0IOEgU1QS?si=lL7JnYHdRwOJzB3XlRVPmQ">MyVibelist</a>.</li>
+                <li>I love reading, from sci-fi to economics & business books.</li>
             </ul>
         </section>
 
-        <section id="thesis">
-            <h2>Things I like</h2>
-            <ul>
-                <li>Flying Bots.</li>
-                <li>Electronic music.</li>
-                <li>Bangalore.</li>
-                <li>RollerBlades.</li>
-                <li>Computers.</li>
-                <li>StarWars.</li>
-            </ul>
+        <section id="likes">
+            <h2>Things I Like</h2>
+            <p>Flying Bots • Electronic Music • Bangalore • RollerBlades • Computers • StarWars</p>
         </section>
 
         <section id="contact">
             <h2>Contact Me</h2>
-            <p>You can DM me on <a href="https://x.com/sur_naik">Twitter [X]</a></p>
+            <p>DM me on <a href="https://x.com/sur_naik">Twitter [X]</a></p>
         </section>
-        <div id="spacer">
-        </div>
+
         <footer>
             <p>&copy; 2024 SUR. All rights reserved.</p>
         </footer>
